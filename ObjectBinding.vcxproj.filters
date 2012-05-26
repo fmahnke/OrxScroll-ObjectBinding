@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="OrxScroll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scroll\include\Scroll\Scroll.h">
+      <Filter>Header Files\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scroll\include\Scroll\ScrollBase.h">
+      <Filter>Header Files\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scroll\include\Scroll\ScrollEd.h">
+      <Filter>Header Files\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scroll\include\Scroll\ScrollObject.h">
+      <Filter>Header Files\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{77ee2991-6503-4e65-aa5c-0b30c81304bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scroll">
+      <UniqueIdentifier>{a5d33895-ec04-48f8-ad71-29670c7dba53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3ab407c5-11a2-4c66-86dd-7ac6b08a3c98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OrxScroll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\scroll\include\Scroll\Scroll.inl">
+      <Filter>Header Files\Scroll</Filter>
+    </None>
+    <None Include="..\scroll\include\Scroll\ScrollBase.inl">
+      <Filter>Header Files\Scroll</Filter>
+    </None>
+    <None Include="..\scroll\include\Scroll\ScrollEd.inl">
+      <Filter>Header Files\Scroll</Filter>
+    </None>
+    <None Include="..\scroll\include\Scroll\ScrollObject.inl">
+      <Filter>Header Files\Scroll</Filter>
+    </None>
+  </ItemGroup>
+</Project>
