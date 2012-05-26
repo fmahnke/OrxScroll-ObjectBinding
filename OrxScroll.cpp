@@ -13,11 +13,10 @@ orxSTATUS OrxScroll::Init ()
     CreateObject (OrxScrollConstants::heroConfigSection);
 
     ScrollObject *test;
-    for (int i = 0; i < 5; i++)
+    for (orxU32 i = 0; i < 5; i++)
     {
 	test = CreateObject (OrxScrollConstants::enemyBugConfigSection);
     }
-    DeleteObject (test);
     return result;
 }
 

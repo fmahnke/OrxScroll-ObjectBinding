@@ -11,5 +11,5 @@ private:
 			      const orxVECTOR &_rvNormal);
     virtual void    Update (const orxCLOCK_INFO &_rstInfo);
 
-    float m_movementSpeed;
+    orxFLOAT	    m_movementSpeed;
 };

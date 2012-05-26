@@ -69,7 +69,7 @@ void EnemyBug::Update(const orxCLOCK_INFO &_rstInfo)
 	// Reset time
 	m_timeSinceDirectionChange = 0;
 	// Pick random number between bounds of Direction enum
-	int randomNum = orxMath_GetRandomU32 (0, highDirection);
+	orxU32 randomNum = orxMath_GetRandomU32 (0, highDirection);
 	// Update object's direction of movement
 	m_direction = static_cast<Direction> (randomNum);
     }

@@ -11,15 +11,6 @@ const int highDirection = 3;
 
 class EnemyBug : public ScrollObject
 {
-public:
-    EnemyBug ()
-    {
-	int a = 0;
-    };
-    virtual ~EnemyBug ()
-    {
-	int a = 0;
-    };
 private:
     //! Called on object creation.
     virtual void OnCreate ();
@@ -31,9 +22,9 @@ private:
     //! Direction of movement
     Direction   m_direction;
     //! Speed of movement
-    float       m_movementSpeed;
+    orxFLOAT       m_movementSpeed;
     //! Time since change of direction
-    float       m_timeSinceDirectionChange;
+    orxFLOAT       m_timeSinceDirectionChange;
     //! Time interval between direction changes
-    float       m_directionChangeInterval;
+    orxFLOAT       m_directionChangeInterval;
 };
