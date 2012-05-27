@@ -4,23 +4,23 @@
     <ClInclude Include="OrxScroll.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\scroll\include\Scroll\Scroll.h">
-      <Filter>Header Files\Scroll</Filter>
-    </ClInclude>
-    <ClInclude Include="..\scroll\include\Scroll\ScrollBase.h">
-      <Filter>Header Files\Scroll</Filter>
-    </ClInclude>
-    <ClInclude Include="..\scroll\include\Scroll\ScrollEd.h">
-      <Filter>Header Files\Scroll</Filter>
-    </ClInclude>
-    <ClInclude Include="..\scroll\include\Scroll\ScrollObject.h">
-      <Filter>Header Files\Scroll</Filter>
-    </ClInclude>
     <ClInclude Include="EnemyBug.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Hero.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scroll\include\Scroll\Scroll.h">
+      <Filter>Header Files\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="scroll\include\Scroll\ScrollBase.h">
+      <Filter>Header Files\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="scroll\include\Scroll\ScrollEd.h">
+      <Filter>Header Files\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="scroll\include\Scroll\ScrollObject.h">
+      <Filter>Header Files\Scroll</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -49,20 +49,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\scroll\include\Scroll\Scroll.inl">
-      <Filter>Header Files\Scroll</Filter>
-    </None>
-    <None Include="..\scroll\include\Scroll\ScrollBase.inl">
-      <Filter>Header Files\Scroll</Filter>
-    </None>
-    <None Include="..\scroll\include\Scroll\ScrollEd.inl">
-      <Filter>Header Files\Scroll</Filter>
-    </None>
-    <None Include="..\scroll\include\Scroll\ScrollObject.inl">
-      <Filter>Header Files\Scroll</Filter>
-    </None>
     <None Include="data\ObjectBinding.ini">
       <Filter>Config</Filter>
+    </None>
+    <None Include="scroll\include\Scroll\Scroll.inl">
+      <Filter>Header Files\Scroll</Filter>
+    </None>
+    <None Include="scroll\include\Scroll\ScrollBase.inl">
+      <Filter>Header Files\Scroll</Filter>
+    </None>
+    <None Include="scroll\include\Scroll\ScrollEd.inl">
+      <Filter>Header Files\Scroll</Filter>
+    </None>
+    <None Include="scroll\include\Scroll\ScrollObject.inl">
+      <Filter>Header Files\Scroll</Filter>
     </None>
   </ItemGroup>
 </Project>

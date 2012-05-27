@@ -54,7 +54,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>__orxDEBUG__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\Scroll\include\Scroll</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Scroll\include\Scroll</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <FloatingPointModel>Fast</FloatingPointModel>
     </ClCompile>
@@ -83,13 +83,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\scroll\include\Scroll\Scroll.h" />
-    <ClInclude Include="..\scroll\include\Scroll\ScrollBase.h" />
-    <ClInclude Include="..\scroll\include\Scroll\ScrollEd.h" />
-    <ClInclude Include="..\scroll\include\Scroll\ScrollObject.h" />
     <ClInclude Include="EnemyBug.h" />
     <ClInclude Include="Hero.h" />
     <ClInclude Include="OrxScroll.h" />
+    <ClInclude Include="scroll\include\Scroll\Scroll.h" />
+    <ClInclude Include="scroll\include\Scroll\ScrollBase.h" />
+    <ClInclude Include="scroll\include\Scroll\ScrollEd.h" />
+    <ClInclude Include="scroll\include\Scroll\ScrollObject.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EnemyBug.cpp" />
@@ -97,11 +97,11 @@
     <ClCompile Include="OrxScroll.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\scroll\include\Scroll\Scroll.inl" />
-    <None Include="..\scroll\include\Scroll\ScrollBase.inl" />
-    <None Include="..\scroll\include\Scroll\ScrollEd.inl" />
-    <None Include="..\scroll\include\Scroll\ScrollObject.inl" />
     <None Include="data\ObjectBinding.ini" />
+    <None Include="scroll\include\Scroll\Scroll.inl" />
+    <None Include="scroll\include\Scroll\ScrollBase.inl" />
+    <None Include="scroll\include\Scroll\ScrollEd.inl" />
+    <None Include="scroll\include\Scroll\ScrollObject.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
