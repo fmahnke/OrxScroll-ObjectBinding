@@ -43,6 +43,7 @@
     </LinkIncremental>
     <TargetName>$(ProjectName)d</TargetName>
     <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -100,6 +101,7 @@
     <None Include="..\scroll\include\Scroll\ScrollBase.inl" />
     <None Include="..\scroll\include\Scroll\ScrollEd.inl" />
     <None Include="..\scroll\include\Scroll\ScrollObject.inl" />
+    <None Include="data\ObjectBinding.ini" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -3,6 +3,8 @@
 #include "OrxScroll.h"
 #undef __SCROLL_IMPL__
 
+#include <time.h>
+
 #include "EnemyBug.h"
 #include "Hero.h"
 
@@ -10,12 +12,16 @@ orxSTATUS OrxScroll::Init ()
 {
     orxSTATUS result = orxSTATUS_SUCCESS;
 
+    // Get current time since Epoch
+    orxS32 seconds = static_cast<orxS32> (time (NULL));
+    // Initialize random number generator with current time
+    orxMath_InitRandom (seconds);
+
     CreateObject (OrxScrollConstants::heroConfigSection);
 
-    ScrollObject *test;
     for (orxU32 i = 0; i < 5; i++)
     {
-	test = CreateObject (OrxScrollConstants::enemyBugConfigSection);
+	CreateObject (OrxScrollConstants::enemyBugConfigSection);
     }
     return result;
 }

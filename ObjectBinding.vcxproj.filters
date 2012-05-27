@@ -33,6 +33,9 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{3ab407c5-11a2-4c66-86dd-7ac6b08a3c98}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{a0a3889a-c09b-4334-aad0-c08d9959caa5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OrxScroll.cpp">
@@ -57,6 +60,9 @@
     </None>
     <None Include="..\scroll\include\Scroll\ScrollObject.inl">
       <Filter>Header Files\Scroll</Filter>
+    </None>
+    <None Include="data\ObjectBinding.ini">
+      <Filter>Config</Filter>
     </None>
   </ItemGroup>
 </Project>

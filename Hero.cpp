@@ -1,3 +1,8 @@
+/**
+ * @file Hero.cpp
+ * @date 2012-05-24
+ *
+ */
 #include "Hero.h"
 
 void Hero::OnCreate ()

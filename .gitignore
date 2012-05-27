@@ -1,0 +1,7 @@
+Debug
+ipch
+update_dox.bat
+*.opensdf
+*.sdf
+*.suo
+*.vcxproj.user

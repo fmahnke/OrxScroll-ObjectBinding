@@ -1,8 +1,12 @@
 #ifndef __ORXSCROLL_H_
 #define __ORXSCROLL_H_
 
+/*
+ *  Uncomment this define to prevent the embedded editor (ScrollEd)
+ *  from being compiled
+ */
+#define __NO_SCROLLED__
 //! Includes
-#define __NO_SCROLLED__ // Uncomment this define to prevent the embedded editor (ScrollEd) from being compiled
 #include "Scroll.h"
 
 namespace OrxScrollConstants
@@ -14,8 +18,6 @@ namespace OrxScrollConstants
 //! OrxScroll class
 class OrxScroll : public Scroll<OrxScroll>
 {
-public:
-
 private:
     //! Initialize the program
     virtual orxSTATUS Init ();
