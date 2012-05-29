@@ -9,14 +9,10 @@ void EnemyBug::OnCreate ()
 {
     // Set initial movement direction
     m_direction = SOUTH;
-    // Push class config section
-    orxConfig_PushSection (OrxScrollConstants::enemyBugConfigSection);
     // Get movement speed from config value 
     m_movementSpeed = orxConfig_GetFloat ("MovementSpeed");
     // Get direction change interval from config value
     m_directionChangeInterval = orxConfig_GetFloat ("DirectionChangeInterval");
-    // Pop class config section
-    orxConfig_PopSection ();
 }
 
 void EnemyBug::OnDelete ()

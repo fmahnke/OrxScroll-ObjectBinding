@@ -7,12 +7,8 @@
 
 void Hero::OnCreate ()
 {
-    // Push class config section
-    orxConfig_PushSection (OrxScrollConstants::heroConfigSection);
     // Get movement speed from config value
     m_movementSpeed = orxConfig_GetFloat ("MovementSpeed");
-    // Pop class config section
-    orxConfig_PopSection ();
 }
 
 void Hero::OnDelete ()
